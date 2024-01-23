@@ -11,9 +11,9 @@
             }
 
             body{
-                width: 100%;
-                padding-top: 78px;
-                padding-bottom: 75px;
+                width: 98%;
+                padding-top: 76px;
+                padding-bottom: 70px;
             }
 
             
@@ -23,7 +23,6 @@
 
 
             .col-lg-9{
-              display: flex;
               justify-content: center;
               text-align: center;
               align-items: center;
@@ -38,6 +37,14 @@
               right: 0;
               height: 100vh; 
               overflow-y: auto;
+            }
+
+            #kategori{
+              padding: 0;
+            }
+
+            .container{
+              margin-right: 0;
             }
 
     </style>
@@ -130,7 +137,7 @@
             
         </div>
 
-        <div class="col-md-3 fixed position-fixed fixed-column">
+        <div id="Kategori" class="col-md-3 fixed position-fixed fixed-column">
             <!-- Kolom 2 -->
             <h3>Kategori Service</h3>
             <a href="#">Service Besar</a>
@@ -149,7 +156,7 @@
 
     <div class="row">
       <div class="col-lg-3">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 15rem;">
           <img src="https://picsum.photos/350/204" class="card-img-top" alt="...">
           <div class="card-body">
             <a href="#" class="card-text">Service Besar</a>
@@ -158,7 +165,7 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 15rem;">
           <img src="https://picsum.photos/350/205" class="card-img-top" alt="...">
           <div class="card-body">
             <a href="#" class="card-text">Service Ringan</a>
@@ -166,7 +173,7 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 15rem;">
           <img src="https://picsum.photos/350/206" class="card-img-top" alt="...">
           <div class="card-body">
             <a href="#" class="card-text">Body Repair</a>
@@ -186,11 +193,15 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="card mb-3">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://picsum.photos/400/207" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+        <img src="https://picsum.photos/400/208" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
@@ -210,13 +221,13 @@
       // Menghentikan perilaku bawaan formulir
       event.preventDefault();
 
-      // Mendapatkan nilai dari input pencarian
+      // buat dapetin nilai dari input pencarian
       var searchQuery = $("#searchInput").val();
 
-      // Melakukan sesuatu dengan nilai pencarian, misalnya, tampilkan di konsol
+      // Melakukan sesuatu dengan nilai pencarian, contoh, tampilkan di konsol
       console.log("Hasil Pencarian: " + searchQuery);
 
-      // Di sini, Anda dapat menambahkan logika atau mengarahkan ke halaman hasil pencarian, dll.
+      // Di sini, buat nambahin logika atau mengarahkan ke halaman hasil pencarian, dll.
     });
   });
 </script>
